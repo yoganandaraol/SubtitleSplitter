@@ -1,0 +1,5 @@
+D:\Tech\Practice\C#\Task\SubtitleSplitter\SubtitleSplitter\SubtitleSplitterManager\bin\Debug\SubtitleSplitterManager.dll
+D:\Tech\Practice\C#\Task\SubtitleSplitter\SubtitleSplitter\SubtitleSplitterManager\bin\Debug\SubtitleSplitterManager.pdb
+D:\Tech\Practice\C#\Task\SubtitleSplitter\SubtitleSplitter\SubtitleSplitterManager\obj\Debug\SubtitleSplitterManager.dll
+D:\Tech\Practice\C#\Task\SubtitleSplitter\SubtitleSplitter\SubtitleSplitterManager\obj\Debug\SubtitleSplitterManager.pdb
+D:\Tech\Practice\C#\Task\SubtitleSplitter\SubtitleSplitter\SubtitleSplitterManager\obj\Debug\SubtitleSplitterManager.csprojResolveAssemblyReference.cache

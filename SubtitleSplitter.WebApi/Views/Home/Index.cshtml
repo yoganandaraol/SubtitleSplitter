@@ -1,0 +1,59 @@
+﻿<script src="~/angular/app.js"></script>
+<div class ="row">
+    <div class="col-md-12">
+        &nbsp;
+    </div>
+</div>
+<div class="row" ng-app="subtitleModule" ng-controller="subtitleController">
+    <div class="col-md-3">
+        <div class="form-group">
+             
+            <textarea class="form-control Screen" rows="5" id="txtSubtitleFullText">
+                Please write a program that breaks this text into small chucks. Each chunk should have a maximum length of 25 characters. The program should try to break on complete sentences or punctuation marks if possible.  If a comma or sentence break occurs within 5 characters of the max line length, the line should be broken early.  The exception to this rule is when the next line will only contain 5 characters.  Redundant whitespace should not be counted between lines, and any duplicate   spaces should be removed.  Does this make sense? If not please ask for further clarification, an array containing the desired outcome has been provided below. Any text beyond this point is not part of the instructions, it's only here to ensure test converge. Finish line. Aaa asdf asdfjk las, asa.
+            </textarea>
+        </div>
+    </div>
+    <div class="col-md-2">
+        <div class="form-group">
+            <input type="submit" id="subSubtitles" value="Get Subtitles" class="btn btn-primary" ng-click="getSubtitlesCallback()" />
+        </div>
+    </div>
+    <div class="col-md-7">
+            <div class="row ">
+                <div class="col-sm-12">
+                    <label>Current Subtitle</label>
+                    <div class="form-group text-center well">
+                        <h4><label>{{currentTitle}}</label></h4>
+                    </div>
+                    </div>
+            </div>
+
+            <div class="row ">
+                <div class="col-sm-5 container ">
+                    <label>Subtitles lines</label>
+                    <div class="form-group well">
+                        <p ng-attr-id="{{ 'h4-' + $index }}" ng-repeat="subtitle in SplittedSubtitles">{{subtitle}}</p>
+                    </div>
+                </div>
+                <div class="col-sm-1"></div>
+
+                    
+                    <div class="col-sm-6 container ">
+                        <label>Highlights</label>
+                        <div class="form-group well">
+                            <span ng-attr-id="{{ 'span-' + $index }}" ng-repeat="subtitle in SplittedSubtitles">{{subtitle}}&nbsp;</span>
+                        </div>
+                    </div>
+                </div>
+                </div>
+    </div>
+    <style>
+        .Screen {
+            min-height: 400px;
+        }
+
+        .highlight {
+            background:yellow;
+        }
+    </style>
+</div>

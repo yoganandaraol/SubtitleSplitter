@@ -1,0 +1,79 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SubtitleSplitter", "SubtitleSplitter\SubtitleSplitter.csproj", "{9B696D0B-8D77-4923-A7E6-D6B2465DB362}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SubtitleSplitter.Tests", "SubtitleSplitter.Tests\SubtitleSplitter.Tests.csproj", "{0F14F148-6549-40DF-A0A1-922B6B5E8093}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SubtitleSplitterManager", "SubtitleSplitterManager\SubtitleSplitterManager.csproj", "{0AEA2AC8-884C-43FF-9A53-66A878190B7F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SubtitleSplitter.Web", "SubtitleSplitter.WebApi\SubtitleSplitter.Web.csproj", "{3DD8BBBD-911C-4501-9B54-858FEC1067CF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D97B65C4-3902-438A-8D73-FAD5402D97A6}"
+	ProjectSection(SolutionItems) = preProject
+		C:\Users\U30966\Desktop\Application Screenshots.pdf = C:\Users\U30966\Desktop\Application Screenshots.pdf
+		C:\Users\U30966\Desktop\Readme.pdf = C:\Users\U30966\Desktop\Readme.pdf
+		Readme.txt = Readme.txt
+		C:\Users\U30966\Desktop\SubtitleSplitter_Readme_Yogananda_Rao_Locherla_Final.pdf = C:\Users\U30966\Desktop\SubtitleSplitter_Readme_Yogananda_Rao_Locherla_Final.pdf
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9B696D0B-8D77-4923-A7E6-D6B2465DB362}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{9B696D0B-8D77-4923-A7E6-D6B2465DB362}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{9B696D0B-8D77-4923-A7E6-D6B2465DB362}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{9B696D0B-8D77-4923-A7E6-D6B2465DB362}.Debug|x86.ActiveCfg = Debug|x86
+		{9B696D0B-8D77-4923-A7E6-D6B2465DB362}.Debug|x86.Build.0 = Debug|x86
+		{9B696D0B-8D77-4923-A7E6-D6B2465DB362}.Release|Any CPU.ActiveCfg = Release|x86
+		{9B696D0B-8D77-4923-A7E6-D6B2465DB362}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{9B696D0B-8D77-4923-A7E6-D6B2465DB362}.Release|Mixed Platforms.Build.0 = Release|x86
+		{9B696D0B-8D77-4923-A7E6-D6B2465DB362}.Release|x86.ActiveCfg = Release|x86
+		{9B696D0B-8D77-4923-A7E6-D6B2465DB362}.Release|x86.Build.0 = Release|x86
+		{0F14F148-6549-40DF-A0A1-922B6B5E8093}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F14F148-6549-40DF-A0A1-922B6B5E8093}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F14F148-6549-40DF-A0A1-922B6B5E8093}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{0F14F148-6549-40DF-A0A1-922B6B5E8093}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{0F14F148-6549-40DF-A0A1-922B6B5E8093}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{0F14F148-6549-40DF-A0A1-922B6B5E8093}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F14F148-6549-40DF-A0A1-922B6B5E8093}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F14F148-6549-40DF-A0A1-922B6B5E8093}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{0F14F148-6549-40DF-A0A1-922B6B5E8093}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{0F14F148-6549-40DF-A0A1-922B6B5E8093}.Release|x86.ActiveCfg = Release|Any CPU
+		{0AEA2AC8-884C-43FF-9A53-66A878190B7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AEA2AC8-884C-43FF-9A53-66A878190B7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AEA2AC8-884C-43FF-9A53-66A878190B7F}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{0AEA2AC8-884C-43FF-9A53-66A878190B7F}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{0AEA2AC8-884C-43FF-9A53-66A878190B7F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{0AEA2AC8-884C-43FF-9A53-66A878190B7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AEA2AC8-884C-43FF-9A53-66A878190B7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AEA2AC8-884C-43FF-9A53-66A878190B7F}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{0AEA2AC8-884C-43FF-9A53-66A878190B7F}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{0AEA2AC8-884C-43FF-9A53-66A878190B7F}.Release|x86.ActiveCfg = Release|Any CPU
+		{3DD8BBBD-911C-4501-9B54-858FEC1067CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DD8BBBD-911C-4501-9B54-858FEC1067CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DD8BBBD-911C-4501-9B54-858FEC1067CF}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{3DD8BBBD-911C-4501-9B54-858FEC1067CF}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{3DD8BBBD-911C-4501-9B54-858FEC1067CF}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{3DD8BBBD-911C-4501-9B54-858FEC1067CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DD8BBBD-911C-4501-9B54-858FEC1067CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DD8BBBD-911C-4501-9B54-858FEC1067CF}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{3DD8BBBD-911C-4501-9B54-858FEC1067CF}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{3DD8BBBD-911C-4501-9B54-858FEC1067CF}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F61BF3EA-6958-4091-9427-BEEC90A4BC9E}
+	EndGlobalSection
+EndGlobal
