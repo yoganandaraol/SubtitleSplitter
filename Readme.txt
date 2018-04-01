@@ -14,7 +14,7 @@ Number of Projects	:	4 Projects
 						2. Class Library (Name - SubtitleSplitterManager)
 						3. Console Application (Name - SubtitleSplitter)
 						4. Web Application [ASP.NET MVC, Web API, AngularJs] (Name - SubtitleSplitter.Web)
-
+[Please read the 'SubtitleSplitter_Readme_Yogananda_Rao_Locherla_Final.pdf' document for more details including screenshots]
 
 1. Unit testing Project (Name - SubtitleSplitter.Tests)
 
