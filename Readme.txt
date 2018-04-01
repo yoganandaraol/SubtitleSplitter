@@ -30,7 +30,7 @@ Number of Projects	:	4 Projects
 		IBeautifier --> Interface
 		------------------------- 
 			-> Contains Beautify() abstract function, which is intended to beautify the input string.
-			-> In this example, removee unnecessary white spaces in it. But we can extend as needed.
+			-> Beautify() implemented to remove unnecessary white spaces in it. But we can extend as needed.
 		
 		IStringSplitRules --> Interface
 		-------------------------------
