@@ -87,9 +87,7 @@ Number of Projects	:	4 Projects
 #################################################################
 #					Subtitle Splitter							#
 -----------------------------------------------------------------
-	Author		:	Yogananda Rao Locherla
-	Email		:	yoganandaraol@gmail.com
-	Phone		:	9676556060
+	Owner		:	Yogananda Rao Locherla
 #################################################################
 
 
